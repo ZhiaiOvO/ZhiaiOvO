@@ -12,14 +12,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Pinned Repositories (顶置仓库)
+      - name: My Repositories (我的仓库)
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics/repos.svg
           base: ""
           plugin_repositories: yes
-          plugin_repositories_pinned: yes
           plugin_repositories_affiliations: owner
           config_timezone: Asia/Shanghai
 
