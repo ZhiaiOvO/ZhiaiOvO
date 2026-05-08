@@ -19,7 +19,9 @@ jobs:
           filename: metrics/repos.svg
           base: ""
           plugin_repositories: yes
+          plugin_repositories_pinned: no
           plugin_repositories_affiliations: owner
+          plugin_repositories_skipped: ZhiaiOvO
           config_timezone: Asia/Shanghai
 
       - name: Isometric Calendar (等距贡献年视图)
