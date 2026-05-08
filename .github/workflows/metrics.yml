@@ -19,7 +19,7 @@ jobs:
           filename: metrics/repos.svg
           base: ""
           plugin_repositories: yes
-          plugin_repositories_pinned: yes
+          plugin_repositories_pinned: 6
           plugin_repositories_affiliations: owner
           config_timezone: Asia/Shanghai
 
