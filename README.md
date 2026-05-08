@@ -34,10 +34,10 @@
   <img src="./metrics/repos.svg" />
 </div>
 
-### 🔥 贡献热点图
+### 🔥 贡献年视图
 
 <div align="center">
-  <img src="./metrics/calendar.svg" />
+  <img src="./metrics/isocalendar.svg" />
 </div>
 
 ---

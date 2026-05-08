@@ -23,12 +23,12 @@ jobs:
           plugin_repositories_affiliations: owner
           config_timezone: Asia/Shanghai
 
-      - name: Contribution Calendar (贡献热点图)
+      - name: Isometric Calendar (等距贡献年视图)
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics/calendar.svg
+          filename: metrics/isocalendar.svg
           base: ""
-          plugin_calendar: yes
-          plugin_calendar_full: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           config_timezone: Asia/Shanghai
